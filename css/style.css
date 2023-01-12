@@ -1,0 +1,153 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+.main_form {
+    height: 505px;
+    width: 380px;
+    border-radius: 5px;
+    margin-left: 100px;
+    background: #fff;
+}
+.form_content{
+    width: 92%;
+    overflow: hidden;
+}
+.main_header {
+    background-color: blueviolet;
+    height: 800px;
+    width: 100%;    
+}
+.main {
+    padding-top: 130px;
+}
+
+.form_heading {
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 35px;
+}
+.form_step {
+    margin-left: 33px;
+}
+
+.form_stepUp ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form_stepUp ul li {
+    padding-right: 25px;
+}
+.circle_border{
+    border: 2px solid #242424;
+    padding: 14px 0px 12px 21px;
+    border-radius: 75%;
+    width: 5px;
+    height: -1px;
+    margin-left: 1px;
+    margin-top: -4px;
+}
+.circle_border1{
+    border: 2px solid #242424;
+    padding: 14px 0px 12px 21px;
+    border-radius: 75%;
+    width: 5px;
+    height: -1px;
+    margin-left: 43px;
+    margin-top: -4px;
+}
+.circle_border3{
+    border: 2px solid #242424;
+    padding: 14px 0px 12px 21px;
+    border-radius: 75%;
+    width: 5px;
+    height: -1px;
+    margin-left: 2px;
+    margin-top: -4px;
+}
+.form_stepDown {
+    display: flex;
+    flex-wrap: wrap;
+}
+.border{
+    background: black;
+    width: 10%;
+    height: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 10px;
+}
+.numbers ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers ul li {
+    padding-right: 47px;
+    margin-top: -40px;
+    padding-left: 13px;
+}
+li#num2 {
+    padding-left: 12px;
+}
+li#num4 {
+    padding-left: 11px;
+}
+.info h1 {
+    font-size: 26px;
+}
+.info {
+    margin-left: 25px;
+    display: flex;
+}
+input.First_box{
+    padding: 8px 75px 8px 85px;
+    background-color: #fff;
+    border: 1px solid rgb(185, 180, 180);
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    outline: 0;
+}
+input.Last_box{
+    padding: 8px 75px 8px 85px;
+    background-color: #fff;
+    border: 1px solid rgb(185, 180, 180);
+    border-radius: 4px;
+    margin-top: 8px;
+    outline: 0;
+}
+.info button{
+    padding: 10px 143px 10px 143px;
+    font-size: 14px;
+    margin-top: 22px;
+    border-radius: 5px;
+    background: rgb(186, 44, 91);
+    border: none;
+    color: #fff;
+}
+.info_buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button.prebtn {
+    border-radius: 5px;
+    padding: 10px 48px 10px 48px;
+}
+
+button.nextbtn {
+    border-radius: 5px;
+    padding: 10px 58px 10px 58px;
+    margin-left: 2px;
+}
+#selectGender{
+    padding: 8px 128px 8px 128px;
+    background-color: #fff;
+    border: 1px solid rgb(185, 180, 180);
+    border-radius: 4px;
+    margin-top: 8px;
+    outline: 0;
+}
